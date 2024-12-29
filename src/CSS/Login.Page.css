@@ -1,0 +1,107 @@
+
+
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding-top: 30px;
+margin-top: 200px;
+}
+form h1{
+  text-align: center;
+
+}
+
+
+form .data{
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+}
+form .data:focus{
+ border: blue;
+}
+
+.btn{
+  background: #7895a6;
+  font-size: 26px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 600;
+   padding: 10px 20px;
+   color: rgb(5, 5, 5);
+   border-radius: 20px;
+   border: 2px solid black;
+   cursor: pointer;
+   margin-left: 125px;
+}
+.btn:hover{
+  background-color: #0c0c0c;
+  color: white;
+  border: 2px solid red;
+}
+/* ==========================search======================== */
+
+.searchinput{
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.searchinput input{
+  font-size: 20px;
+  padding: 5px;
+  width: 300px;
+}
+.searchinput button{
+  font-size: 20px;
+  padding: 5px;
+}
+/* ===================================add product =================*/
+
+.productinput{
+  text-align: center;
+  width: 400px;
+  height: 360px;
+  background: #6e7b8b;
+  border-radius: 8px;
+  margin: 48px 550px;
+  
+}
+.productinput h2{
+  padding-top: 28px;
+}
+.productinput input{
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.productinput button{
+  background: #141d22;
+  font-size: 24px;
+   /* display: flex;
+   justify-content: center; */
+   /* align-items: center; */
+   /* text-align: center; */
+   font-weight: 600;
+   padding: 10px 20px;
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
+   border: 2px solid black;
+   cursor: pointer;
+   margin-top: 40px;
+}
+.productinput button:hover{
+  background-color: #0c0c0c;
+  color: white;
+  border: 2px solid red;
+}

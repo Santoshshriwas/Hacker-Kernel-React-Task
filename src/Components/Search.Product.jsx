@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import "../CSS/Search.Product.css"
 
 export const Search = () => {
   const [value, setValue] = useState("");

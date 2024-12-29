@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import "../CSS/Add.Product.css"
 
 export const Product = () => {
   const [data, setData] = useState({

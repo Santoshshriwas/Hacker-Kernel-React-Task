@@ -38,8 +38,6 @@ ul {
   padding: 0;
   margin: 0;
 }
-
-/* Responsive styles */
 @media (max-width: 768px) {
   .display-table-row {
     flex-direction: column;
